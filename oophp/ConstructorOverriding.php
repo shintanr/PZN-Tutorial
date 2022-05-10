@@ -7,3 +7,6 @@
 // Jika kita melakukan override function dengan arguments berbeda, maka PHP akan menampilkan warning 
 // Namun berbeda dengan constructor overriding, kita boleh mengoverride dengan mengubah argumentsnya, namun untuk memanggil parent constructor 
 
+class override {
+    
+}
