@@ -1,0 +1,25 @@
+Tahapan membuatnya:
+1. Membuat prototypenya terlebih dahulu
+    Prototype adalah bentuk dasar dari sebuah aplikasi d
+    Saat pertama kali kita membuat aplikasi, sangat disarankan untuk membuat prototypenya terlebih dahulu
+    Prototype bisa kita gunakan agar mudah memahami flow aplikasi yang akan kita buat, sehingga tidak salah ketika membuat aplikasi
+    Dari Prototype juga kita bisa melihat data apa saja yang dibutuhkan, bussiness logic apa yang dibutuhkan dan seperti apa tampilan aplikasi yang akan kita buat 
+2. Membuat Project 
+    membuat directory kosong
+3. Membuat Model 
+    di sini akan mengguanakan CLI dan tidak dihubungan dengan Database
+4. Menentukan Bussiness Logic
+5. Menentukan view 
+6. Menampilakn showtodolist
+7. Test menampilkan todolist
+    Manual test tidak baik
+8. Menambah todolist
+    perlu input data berupa text dan menambahkannya ke list
+9. Menghapus todolist
+9. Membuat test AddTodoList
+    Masalah yang saya temukan adalah
+    $ php TestAddTodoList.php
+    array(0) {
+    }
+
+10. Test removeTodoList
