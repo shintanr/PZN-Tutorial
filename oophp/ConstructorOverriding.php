@@ -6,13 +6,13 @@
 // Sebenernya di PHP, kita bisa meng-override function dengan arguments yang berbeda, namun sangat tidak disarankan
 // Jika kita melakukan override function dengan arguments berbeda, maka PHP akan menampilkan warning 
 // Namun berbeda dengan constructor overriding, kita boleh mengoverride dengan mengubah argumentsnya, namun untuk memanggil parent constructor 
-class Manager {
-    var string $name;
 
-    var string $title;
+require_once "data/Manager.php";
 
-    public function __construct(string $name, string $title){
-        $this->name = $name;
-        $this->name = $title;
-    }
-}
+$manager = new Manager();
+$manager->name = "Shinta";
+$manager->sayHello("Rohmah");
+
+$vp = new VicePresident();
+$vp->name = "Nur";
+$vp->sayHello("Rohmah");
