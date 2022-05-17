@@ -1,0 +1,14 @@
+Clean Architecture Diagram
+
+Entiti
+representasi dari tabel, 
+bisnis logic
+interface adapter
+framework dan driver
+
+1. Membuat entity 
+2. Repositori 
+3. Membuat service
+4. Implementasi repository
+    a. Menampilkan todoList
+    

@@ -13,3 +13,5 @@ class VicePresident extends Manager{
         echo "Hi $name, my name is VP $this->name". PHP_EOL;
     }
 }
+
+// cara membuatnya adalah copas function yang ada di parent class, masukkan ke kelas child lalu ubah 
