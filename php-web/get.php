@@ -1,5 +1,5 @@
 <?php
-$say = "Hello " . $_GET['name'];
+$say = "Hello " . $_GET['first_name'] . " ". $_GET['last_name'];
 ?>
 
 <html>
