@@ -1,3 +1,3 @@
 <?php
 
-$todoList = array();
+$todoList = array(); // array untuk menyimpan todolist yang diinputkan

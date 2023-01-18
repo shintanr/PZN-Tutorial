@@ -8,8 +8,8 @@ require_once __DIR__ . "/../Helper/Input.php";
 
 
 function viewShowTodoList(){
-    while(true){
-        showTodoList();
+    while(true){ // perulangan biar programnya jalan terus
+        showTodoList(); 
 
         echo "MENU". PHP_EOL;
         echo "1. Tambah Todo". PHP_EOL;
@@ -21,11 +21,11 @@ function viewShowTodoList(){
         if($pilihan == "1"){
             viewAddTodoList();
         } else if ($pilihan == "2"){
-            removeTodoList();
+            removeTodoList($pilihan);
         } else if ($pilihan == "x"){
             break;
         } else {
-            echo "Pilihan tidak dimengerti";
+            echo "Pilihan tidak dimengerti".PHP_OS;
         }
     }
     echo "Sampai Jumpa lagi". PHP_EOL;

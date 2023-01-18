@@ -7,13 +7,12 @@ function viewRemoveTodoList()
 {
     echo "MENGHAPUS TODO" . PHP_EOL;
 
-    $pilihan = input("Nomor (x untuk batalkan)");
+    $pilihan = input("Nomor (x untuk batalkan)"); // menginputkan todolist nomor berapa yang akan dihapus
 
     if ($pilihan == "x") {
         echo "Batal menghapus todo" . PHP_EOL;
     } else {
-        $success = removeTodoList($pilihan);
-
+        $success = removeTodoList($pilihan); // pilihan ini untuk menggantikan argumen int $number
         if ($success) {
             echo "Sukses menghapus todo nomor $pilihan" . PHP_EOL;
         } else {
